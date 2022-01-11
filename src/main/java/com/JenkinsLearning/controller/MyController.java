@@ -9,7 +9,7 @@ public class MyController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "welcome to .war deployment";
+		return "welcome to .war deployment-> it worked yrr";
 	}
 
 }
